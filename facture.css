@@ -1,0 +1,170 @@
+.facture
+{
+	width: 850px;
+	height: 1045px;
+	border: 0px solid transparent;
+	box-shadow: 2px 4px 3px grey;
+	font-size: 16px;
+	margin: auto;
+	padding: 0px;
+	border-top: 15px solid #E1DFB7;
+	border-bottom: 15px solid #E1DFB7;
+	display: block;
+}
+.entete
+{
+	border: 2px solid transparent;
+	height: 200px;
+	padding: 10px;
+	background-color: lightgrey;
+	font-size: 13px;
+	text-align: justify;
+}
+.logo
+{
+	float: left;
+
+}
+.description
+{
+	float: right;
+}
+.section
+{
+	width: 800px;
+	height: 290px;
+	border: 3px solid transparent;
+	font-size: 16px;
+	margin-top: 10px;
+}
+img
+{
+	border-radius: 50%;
+}
+
+.destinataires
+{
+	float: left;
+	border: 2px solid transparent;
+	margin-top: 4px;
+	padding: 10px;
+	width: 40%;
+	height: 200px;
+	margin-left: 10px;
+	font-family: Verdana;
+	font-size: 14px;
+	display: inline-block;
+	list-style-type: none;
+}
+h4
+{
+	line-height: 1em;
+	border-bottom: 2px solid #E1DFB7;
+	width: 300px;
+}
+
+h1
+{
+	color: black;
+	font-size: 30px;
+}
+
+.envoyez
+{
+	border: 2px solid transparent;
+	margin-top: 4px;
+	margin-right: 0px;
+	width: 40%;
+	height: 200px;
+	padding: 10px;
+	float: right;
+	font-family: Verdana;
+	font-size: 14px;
+	display: inline-block;
+	list-style-type: none;
+}
+
+
+
+.color
+{ 
+	background-color: lightgrey;
+
+ }
+.conditions
+{
+	float: right;
+	font-size: 12px;
+	font-style: italic;
+	margin-right: 0px;
+
+}
+.tableau
+{
+	width: 809px;
+	display: block;
+}
+p{
+	font-size: 13px;
+}
+
+table.calcul
+{
+	float: right;
+	border: 0px;
+	margin: 0px;
+	border-spacing: 0;
+	text-align: right;
+	margin-right: 0px;
+	padding: 0px;
+
+}
+table .calcul input 
+{
+	border-style: hidden;
+	border-bottom: 1px solid black;
+	float: right;
+	text-align: right;
+	width: 95%;
+	display: block;
+
+}
+table .calcul_S input
+{
+	border-style: hidden;
+	float: right;
+	text-align: right;
+	background-color: transparent;
+	margin-right: 1px;
+	display: block;
+
+}
+table.solde
+{
+	float: right;
+	font-size: 18px;
+	background-color: #E1DFB7;
+	font-weight: bold;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	display: block;
+
+}
+
+td.numéro
+{
+	border-bottom: 1px solid;
+	background-color: transparent;
+}
+div.button
+{
+	float: left;
+	width:100%;
+	height: 200px;
+	padding: 10px;
+	margin-top: 50px;
+
+}
+p span{
+	text-decoration: underline;
+}
